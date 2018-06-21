@@ -26,7 +26,7 @@ public class App {
         //med_plr1.score -= 8; // Static field можно и так записать, но...
         Medic.score -= 8; // - правильная запись для Ststic полей
         med_plr1.health_personal -= 40; // Non Static field
-        med_plr2.health_personal  = 10; // Non Static field
+        med_plr2.health_personal += 10; // Non Static field
         med_plr3.health_personal  = 30; // Non Static field
 
         med_plr2.name = "Serg";
