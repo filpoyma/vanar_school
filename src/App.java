@@ -10,9 +10,9 @@ public class App {
         medic2.health--; // Static field
         medic3.health--; // Static field
         System.out.println("Static fields:");
-        System.out.printf( "Medic-1 -> %d\n", medic1.health );
-        System.out.printf( "Medic-2 -> %d\n", medic2.health ); // результат будет общий, тк health - static
-        System.out.printf( "Medic-3 -> %d\n", medic3.health );
+        System.out.printf( "Medic-1 -> Health: %d\n", medic1.health );
+        System.out.printf( "Medic-2 -> Health: %d\n", medic2.health ); // результат будет общий, тк health - static
+        System.out.printf( "Medic-3 -> Health: %d\n", medic3.health );
 
         // в реале правильнее обращаться статическим переменным таким образом: Medic.health
         //т.к. переменная health она одна для всех реализаций класса Medic
